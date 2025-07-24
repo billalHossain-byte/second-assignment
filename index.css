@@ -1,13 +1,8 @@
-
-
-
-
-
-*{
-    box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
-    font-family: "Noto Serif", serif;
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Noto Serif", serif;
 }
 
 /* Share class */
@@ -18,55 +13,267 @@
   margin-bottom: 114px;
 }
 
-.common-color{
-    color: #E95A08;
+.common-color {
+  color: #e95a08;
 }
-
 
 /* nav section */
-.navber{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.navber {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.nav-link-ul{
-    display: flex;
-    align-items: center;
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
+.nav-link-ul {
+  display: flex;
+  align-items: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
 }
 
-.nav-item{
-    list-style: none;
-    margin-left: 30px;
+.nav-item {
+  list-style: none;
+  margin-left: 30px;
 }
 
-.nav-link{
-    text-decoration: none;
-    font-weight: 500px;
-     color: rgb(37, 36, 50);
+.nav-link {
+  text-decoration: none;
+  font-weight: 500px;
+  color: rgb(37, 36, 50);
+}
+
+/* hero-section */
+
+.hero {
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero-title {
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 89px;
+}
+
+.hero-description {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+/* Our plants section and lates deal section */
+.our-plant-heading {
+  justify-items: center;
+}
+
+.our-plant-title {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.our-plant-description {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 22px;
+  font-weight: 400px;
+  line-height: 27px;
+  text-align: center;
 }
 
 
 /* hero-section */
 
-.hero{
+.deal{
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  width:px;
+}
+
+.deal-title {
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 89px;
+}
+
+.deal-description {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 22px;
+  font-weight: 400px;
+  line-height: 27px;
+  gap: 10px;
+  width: 540px;
+  height: 108px;
+}
+
+
+
+/* cacard-aitems section */
+
+.card-aitems {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px 20px;
+  margin-top: 90px;
+}
+
+
+.Lily-Blossom {
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 30px;
+  color: #111111;
+}
+
+.card-rate {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 20px;
+  width: 81px;
+  height: 16px;
+  color: #111111;
+}
+
+.Card-button {
+  width: 270px;
+  height: 50px;
+  background-color: #e95a08;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  border: none;
+  margin-top: 30px;
+}
+
+/* Flower & Plants Lover */
+
+.deal-section{
     display: flex;
-    align-items:flex-end;
+    position: relative;
+    
+}
+.flower-title{
+    font-size: 50px;
+    font-weight: bold;
+    width: 540px;
+    height: 137px;
+    margin: 0px;
+    
 }
 
-.hero-title{
-    font-size: 65px;
-    font-weight: 700;
-    line-height: 89px;
+.deal .iamge{
+    display: flex;
+    margin-top: 85px;
+
 }
 
-.hero-description{
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 27px;
+.trusted-badge{
+    display: flex;
+    position: absolute;
+    height: 286px;
+    width: 286px;
+    left: 335px;
+    bottom: 450px;
+    
 }
+
+.paragraph{
+    width: 540px;
+    height: 107;
+}
+
+
+/* Latest Deals iamge section */
+.row{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    background-color: #e95a08;
+    
+}
+
+.vartical-college img{
+    display: flex;
+    width: 340px;
+    height: 215px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.vartical-college-2 img{
+    display: flex;
+    border-radius: 15px;
+}
+
+.discount-price{
+    display: flex;
+}
+/* .Joing-card{
+  height: 533px;
+  width: 1140px;
+} */
+
+
+.Joing-section{
+    background-image: url(./assets/news-letter-bg.png);
+    align-items: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+
+form{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 300px;
+}
+
+form .Join-heder{
+  width: 586px;
+  height: 68px;
+  font-size: 50px;
+  font-weight: 700px;
+  margin-top: 200px;
+  color: rgb(255, 255, 255);
+  gap: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+
+}
+
+.join-elemnt{
+  display:flex;
+  align-items: center;
+}
+.email-input{ 
+  width: 644px;
+  height: 50px;
+  font-size: 16px;
+  padding: 10px;
+  gap: 0%;
+  border: none;
+
+}
+
+.subscribe-button{
+  width: 186px;
+  height: 50px;
+  background-color: #e95a08;
+  font-size: 16px;
+  font-weight: 500px;
+  color: rgb(255, 255, 255);
+  border: none;
+}
+
