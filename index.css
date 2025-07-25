@@ -82,14 +82,13 @@
   text-align: center;
 }
 
-
 /* hero-section */
 
-.deal{
+.deal {
   display: flex;
   align-items: center;
   gap: 60px;
-  width:px;
+  width: px;
 }
 
 .deal-title {
@@ -108,15 +107,12 @@
   height: 108px;
 }
 
-
-
 /* cacard-aitems section */
 
 .card-aitems {
   display: flex;
   align-items: center;
   flex-direction: column;
-  
 }
 
 .card {
@@ -125,7 +121,6 @@
   gap: 30px 20px;
   margin-top: 90px;
 }
-
 
 .Lily-Blossom {
   font-size: 22px;
@@ -157,89 +152,115 @@
 
 /* Flower & Plants Lover */
 
-.deal-section{
-    display: flex;
-    position: relative;
-    
+.deal-section {
+  display: flex;
+  position: relative;
 }
-.flower-title{
-    font-size: 50px;
-    font-weight: bold;
-    width: 540px;
-    height: 137px;
-    margin: 0px;
-    
+.flower-title {
+  font-size: 50px;
+  font-weight: bold;
+  width: 540px;
+  height: 137px;
+  margin: 0px;
 }
 
-.deal .iamge{
-    display: flex;
-    margin-top: 85px;
-
+.deal .iamge {
+  display: flex;
+  margin-top: 85px;
 }
 
-.trusted-badge{
-    display: flex;
-    position: absolute;
-    height: 286px;
-    width: 286px;
-    left: 335px;
-    bottom: 450px;
-    
+.trusted-badge {
+  display: flex;
+  position: absolute;
+  height: 286px;
+  width: 286px;
+  left: 335px;
+  bottom: 450px;
 }
-
-.paragraph{
-    width: 540px;
-    height: 107;
+.iamge {
+  width: 540px;
+  height: 597px;
 }
-
+.paragraph {
+  width: 540px;
+  height: 107;
+}
 
 /* Latest Deals iamge section */
-.row{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    position: relative;
-    background-color: #e95a08;
-    
+.row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 10px;
 }
 
-.vartical-college img{
-    display: flex;
-    width: 340px;
-    height: 215px;
-    border-radius: 15px;
-    padding: 5px;
+.row img {
+  border-radius: 10px;
+}
+.shop-now {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: center;
+  width: 80px;
+  height: 20px;
+}
+.vartical-college-1 {
+  position: relative;
+  /* opacity: 70%; */
+}
+.discount-price-1 {
+  justify-content: space-around;
+  position: absolute;
+  left: 15%;
+  top: 80px;
+  color: #ffffff;
 }
 
-.vartical-college-2 img{
-    display: flex;
-    border-radius: 15px;
+.vartical-college-2 {
+  position: relative;
 }
 
-.discount-price{
-    display: flex;
-}
-/* .Joing-card{
-  height: 533px;
-  width: 1140px;
-} */
-
-
-.Joing-section{
-    background-image: url(./assets/news-letter-bg.png);
-    align-items: center;
-    background-repeat: no-repeat;
-    max-width: 100%;
+.discount-price-2 {
+  justify-content: space-around;
+  position: absolute;
+  left: 15%;
+  top: 80px;
+  color: #ffffff;
 }
 
-form{
-     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 300px;
+.vartical-college-3 {
+  position: relative;
 }
 
-form .Join-heder{
+.discount-price-3 {
+  justify-content: space-around;
+  position: absolute;
+  left: 30%;
+  top: 200px;
+  color: #ffffff;
+}
+
+.discount {
+  width: 498px;
+  height: 50px;
+}
+
+.Joing-section {
+  background-image: url(./assets/news-letter-bg.png);
+  align-items: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 300px;
+}
+
+form .Join-heder {
   width: 586px;
   height: 68px;
   font-size: 50px;
@@ -250,24 +271,22 @@ form .Join-heder{
   margin-bottom: 10px;
   display: flex;
   align-items: center;
-
 }
 
-.join-elemnt{
-  display:flex;
+.join-elemnt {
+  display: flex;
   align-items: center;
 }
-.email-input{ 
+.email-input {
   width: 644px;
   height: 50px;
   font-size: 16px;
   padding: 10px;
   gap: 0%;
   border: none;
-
 }
 
-.subscribe-button{
+.subscribe-button {
   width: 186px;
   height: 50px;
   background-color: #e95a08;
@@ -277,3 +296,96 @@ form .Join-heder{
   border: none;
 }
 
+/* Footer-section */
+
+.footer-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.footer-left {
+  width: 359px;
+  height: 178px;
+  gap: 50px;
+}
+
+.footer-paragraph {
+  color: rgba(107, 114, 128, 1);
+}
+.footer-middle {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+}
+
+.left .right li {
+  padding: 15px 20 0 0;
+  height: 248px;
+  width: 100px;
+}
+
+.social-img {
+  display: flex;
+  width: 216px;
+  height: 36px;
+  padding: 10px;
+}
+
+.social-icon {
+  display: flex;
+
+  align-items: center;
+  margin-left: 50x;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+
+.footer-middle li {
+  margin: 20px;
+}
+
+.footer-middle li a {
+  color: rgba(107, 114, 128, 1);
+}
+
+
+@media screen and (max-width: 577px) {
+
+  .navber .container{
+    /* width: 361px;
+    height: 38px; */
+  }
+  .hero-title
+  .hero-description
+  {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-items: ;
+  } 
+
+
+  .hero {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+
+  .card {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  /* gap: 30px 20px;
+  margin-top: 90px; */
+}
+
+
+
+
+}
+      
