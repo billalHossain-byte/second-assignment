@@ -18,10 +18,18 @@
 }
 
 /* nav section */
+
+
+.nav-class{
+  display: flex;
+  gap: 40px;
+}
+
 .navber {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .nav-link-ul {
@@ -351,18 +359,28 @@ form .Join-heder {
 }
 
 
-@media screen and (max-width: 576px) {    
+@media screen and (max-width: 576px) {
+  main{
+    padding: 20px;
+  }
+  
+   .navber ul{
+      display: none;
+    }
     .navber{
       display: flex;
       flex: 1;
       flex-wrap: wrap;
-       max-width: 100%;
+      max-width: 100%;
+      padding: 20px;
+       
     }
     .hero{
-      display: flex;
-      flex-wrap: wrap;
-      align-items: flex-end;
-      max-width: 100%;
+      flex-direction: column-reverse;
+      
+    }
+    .hero .hero-img{
+      width: 100%;
     }
 
     .hero-description {
@@ -372,11 +390,7 @@ form .Join-heder {
       line-height: 27px;
     }
     
-    .hero-img{
-      width: 393px;
-      height: 245px;
-      max-width: 100%;
-    } 
+     
   .card{
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -424,17 +438,11 @@ form .Join-heder {
     }
     
   .deal{
-      Display: flex;
-      flex-wrap: wrap;
-      max-width: 100%;
+      flex-direction: column;
     }
 
   .deal-img{
-      align-items: center;
-      width: 358px;
-      height: 396px;
-      margin-left: 30px;
-      max-width: 100%;
+      
     }
 
   .deal-title {
@@ -468,10 +476,12 @@ form .Join-heder {
       padding-left: 10px;
     max-width: 100%;
     }
-  .vartical-college-3img{
-      max-width: 100%;
-      height: px;
-    }
+  .vartical-college-1{
+    width: 100%;
+  }
+  .vartical-college-1 img{
+    width: 100%;
+  }
   .our-plant-heading {
       justify-items: center;
     }
@@ -495,7 +505,7 @@ form .Join-heder {
       align-items: center;
       background-repeat: no-repeat;
       max-width: 100%;
-      width: auto;
+      width: ;
 
     }
 
