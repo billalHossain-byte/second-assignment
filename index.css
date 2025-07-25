@@ -107,7 +107,7 @@
   height: 108px;
 }
 
-/* cacard-aitems section */
+/* card-aitems section */
 
 .card-aitems {
   display: flex;
@@ -153,21 +153,16 @@
 /* Flower & Plants Lover */
 
 .deal-section {
-  display: flex;
   position: relative;
 }
 .flower-title {
   font-size: 50px;
   font-weight: bold;
-  width: 540px;
+    width: 540px;
   height: 137px;
   margin: 0px;
 }
 
-.deal .iamge {
-  display: flex;
-  margin-top: 85px;
-}
 
 .trusted-badge {
   display: flex;
@@ -180,10 +175,6 @@
 .iamge {
   width: 540px;
   height: 597px;
-}
-.paragraph {
-  width: 540px;
-  height: 107;
 }
 
 /* Latest Deals iamge section */
@@ -356,36 +347,84 @@ form .Join-heder {
 
 @media screen and (max-width: 577px) {
 
-  .navber .container{
-    /* width: 361px;
-    height: 38px; */
-  }
-  .hero-title
-  .hero-description
-  {
+  .navber {
     display: flex;
     flex: 1;
     flex-wrap: wrap;
-    justify-items: ;
-  } 
-
-
+  }
   .hero {
-  display: flex;
-  flex: 1;
-  flex-wrap: wrap;
-}
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
 
+  .hero-img{
+    width: 393px;
+    height: 245px;
+  }
 
   .card {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  /* gap: 30px 20px;
-  margin-top: 90px; */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .deal-section{
+    display: flex;
+  position: relative;
+}
+    
+
+   .deal{
+    Display: flex;
+    flex-wrap: wrap;
+
+   }
+
+  .deal-img{
+    align-items: center;
+    width: 358px;
+    height: 396px;
+    margin-left: 30px;
+
+  }
+
+  .deal-title {
+    display: flex;
+    flex: 1; 
+}
+
+.trusted-badge {
+  display: none;
+}
+
+.deal-title{
+  width: 270px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+.deal-description{
+  font-size: 14px;
+  width: 361px;
+  margin-left: 30px;
+
+
+}
+
+.head-and-description{
+  
+
+}
+
+
 }
 
 
 
 
-}
+  
+
+
+
+
       
