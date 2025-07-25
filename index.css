@@ -54,11 +54,10 @@
 .hero-title {
   font-size: 65px;
   font-weight: 700;
-  line-height: 89px;
 }
 
 .hero-description {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(107, 114, 128, 1);
   font-size: 22px;
   font-weight: 400;
   line-height: 27px;
@@ -75,7 +74,7 @@
 }
 
 .our-plant-description {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(107, 114, 128, 1);
   font-size: 22px;
   font-weight: 400px;
   line-height: 27px;
@@ -118,12 +117,19 @@
 .card {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 30px 20px;
+  gap: 34px 20px;
   margin-top: 90px;
 }
 
+.card-image{
+  width: 270px;
+  height: 322px;
+
+}
 .Lily-Blossom {
   font-size: 22px;
+  width: px;
+  height: 16px;
   font-weight: 500;
   margin-top: 30px;
   color: #111111;
@@ -345,86 +351,257 @@ form .Join-heder {
 }
 
 
-@media screen and (max-width: 577px) {
+@media screen and (max-width: 576px) {    
+    .navber{
+      display: flex;
+      flex: 1;
+      flex-wrap: wrap;
+       max-width: 100%;
+    }
+    .hero{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      max-width: 100%;
+    }
+    .hero-title {
+     width: 300px;
+      height: 66px;
+    }
 
-  .navber {
-    display: flex;
-    flex: 1;
-    flex-wrap: wrap;
-  }
-  .hero {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-  }
+    .hero-description {
+      color: rgba(107, 114, 128, 1);
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 27px;
+    }
+    
+    .hero-img{
+      width: 393px;
+      height: 245px;
+      max-width: 100%;
+    } 
+  .card{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      margin-top: 50px;
+    } 
+ 
+  .card-image{
+      width: 171px;
+      height: 196px;
+    } 
+    
+  .Lily-Blossom{
+      font-size: 22px;
+      height: 10px;
+      font-weight: 500;
+      margin-top: 30px;
+      color: #111111;
+    }
+  .card-rate{
+      font-size: 16px;
+      font-weight: 700;
+      margin-top: 20px;
+      width: 59px;
+      height: 12px;
+      color: #111111;
+    }
 
-  .hero-img{
-    width: 393px;
-    height: 245px;
-  }
-
-  .card {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  }
+  .Card-button {
+      width: 171px;
+      height: 50px;
+      background-color: #e95a08;
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 19px;
+      border: none;
+      margin-top: 30px;
+    }
 
   .deal-section{
-    display: flex;
-  position: relative;
-}
+      display: flex;
+      position: relative;
+      max-width: 100%;
+    }
     
-
-   .deal{
-    Display: flex;
-    flex-wrap: wrap;
-
-   }
+  .deal{
+      Display: flex;
+      flex-wrap: wrap;
+      max-width: 100%;
+    }
 
   .deal-img{
-    align-items: center;
-    width: 358px;
-    height: 396px;
-    margin-left: 30px;
-
-  }
+      align-items: center;
+      width: 358px;
+      height: 396px;
+      margin-left: 30px;
+      max-width: 100%;
+    }
 
   .deal-title {
-    display: flex;
-    flex: 1; 
+      display: flex;
+      flex: 1; 
+      max-width: 100%;
+    }    
+
+  .trusted-badge {
+      display: none;
+    }
+
+  .deal-title{
+      width: 270px;
+      font-size: 24px;
+      font-weight: bold;
+      margin-left: 30px;
+      max-width: 100%;
+    }
+  .deal-description{
+      font-size: 14px;
+      width: 361px;
+      margin-left: 30px;
+      max-width: 100%;
+    }
+  .row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+      padding-left: 10px;
+    max-width: 100%;
+    }
+  .vartical-college-3img{
+      max-width: 100%;
+      height: px;
+    }
+  .our-plant-heading {
+      justify-items: center;
+    }
+
+  .our-plant-title {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+  .our-plant-description {
+      color: rgba(107, 114, 128, 1);
+      font-size: 14px;
+        font-weight: 400px;
+        line-height: 27px;
+        text-align: center;
+    }
+
+
+  .Joing-section {
+      background-image: url(./assets/news-letter-bg.png);
+      align-items: center;
+      background-repeat: no-repeat;
+      max-width: 100%;
+      width: 400px;
+      height: 293px;
+    }
+
+  form {
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+  form .Join-heder {
+      width: 235px;
+      height: 27px;
+      font-size: 20px;
+      font-weight: 700px;
+      margin-top: 200px;
+      color: rgb(255, 255, 255);
+      gap: 10px;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+    }
+
+  .join-elemnt {
+      display: flex;
+      align-items: center;
+    }
+  .email-input {
+      width: 218px;
+      height: 50px;
+      font-size: 16px;
+      padding: 10px;
+      gap: 0%;
+      border: none;
+    }
+  .subscribe-button {
+      width: 130px;
+      height: 50px;
+      background-color: #e95a08;
+      font-size: 16px;
+      font-weight: 500px;
+      color: rgb(255, 255, 255);
+      border: none;
+    }
+
+  .footer-section {
+      display: flex;
+      align-items: flex-start;
+      gap: 50px;
+    }
+
+  .display-flex {
+      display: flex;
+      flex: 1;
+      flex-wrap: wrap;
+    }
+
+  .footer-left {
+      width: 359px;
+      height: 173px;
+      gap: 50px;
+      margin-top: 90pX;
+    }
+
+  .footer-paragraph {
+      width: 59px;
+      height: 48px;
+      color: rgba(107, 114, 128, 1);
+    }
+  .footer-middle {
+      display: flex;
+      align-items: center;
+      height: 248px;
+      width: 85px;
+      gap: 32px;
+    }
+
+  .left .right li {
+      padding: 15px 20 0 0;
+      height: 248px;
+      width: 100px;
+    }
+
+  .social-img {
+      display: flex;
+      width: 216px;
+      height: 36px;
+      padding: 10px;
+    }
+
+  .social-icon {
+      display: flex;
+      align-items: center;
+      margin-left: 50x;
+      gap: 50px;
+      margin-bottom: 100px;
+    }
+
+  .footer-middle li {
+      margin: 20px;
+    }
+
+  .footer-middle li a {
+      color: rgba(107, 114, 128, 1);
+    }
 }
-
-.trusted-badge {
-  display: none;
-}
-
-.deal-title{
-  width: 270px;
-  font-size: 24px;
-  font-weight: bold;
-  margin-left: 30px;
-}
-.deal-description{
-  font-size: 14px;
-  width: 361px;
-  margin-left: 30px;
-
-
-}
-
-.head-and-description{
-  
-
-}
-
-
-}
-
-
-
-
-  
-
-
-
-
-      
